@@ -1,42 +1,41 @@
 {
-	"name": "sedoo-doc-deploy",
-	"description": "Stupid CLI to deploy vuepress documentation on SEDOO CDN server",
-	"version": "0.0.1",
-	"license": "UNLICENSED",
-	"bin": {
-		"sedoo-doc-deploy": "index.js",
-		"doc-deploy": "index.js"
-	},
-	"author": {
-		"name": "SEDOO",
-		"email": "francois.andre.prof@gmail.com",
-		"url": "https://www.sedoo.fr"
-	},
-	"keywords": [
-		"sedoo-doc-deploy",
-		"SEDOO"
-	],
-	"files": [
-		"index.js",
-		"utils"
-	],
-	"scripts": {
-		"format": "prettier --write \"./**/*.{js,json}\""
-	},
-	"dependencies": {
-		"axios": "^0.24.0",
-		"chalk": "^5.0.0",
-		"cli-alerts": "^1.2.2",
-		"cli-handle-error": "^4.4.0",
-		"cli-handle-unhandled": "^1.1.1",
-		"cli-meow-help": "^2.0.2",
-		"cli-welcome": "^2.2.2",
-		"form-data": "^4.0.0",
-		"fs": "0.0.1-security",
-		"meow": "^9.0.0",
-		"walk": "^2.3.15"
-	},
-	"devDependencies": {
-		"prettier": "^2.5.1"
-	}
+    "name": "@sedoo/sedoo-doc-deploy",
+    "description": "Stupid CLI to deploy vuepress documentation on SEDOO CDN server",
+    "version": "0.0.1",
+    "bin": {
+        "sedoo-doc-deploy": "index.js",
+        "doc-deploy": "index.js"
+    },
+    "author": {
+        "name": "SEDOO",
+        "email": "francois.andre.prof@gmail.com",
+        "url": "https://www.sedoo.fr"
+    },
+    "keywords": [
+        "sedoo-doc-deploy",
+        "SEDOO"
+    ],
+    "files": [
+        "index.js",
+        "utils"
+    ],
+    "scripts": {
+        "format": "prettier --write \"./**/*.{js,json}\""
+    },
+    "dependencies": {
+        "axios": "^0.24.0",
+        "chalk": "^5.0.0",
+        "cli-alerts": "^1.2.2",
+        "cli-handle-error": "^4.4.0",
+        "cli-handle-unhandled": "^1.1.1",
+        "cli-meow-help": "^2.0.2",
+        "cli-welcome": "^2.2.2",
+        "form-data": "^4.0.0",
+        "fs": "0.0.1-security",
+        "meow": "^9.0.0",
+        "walk": "^2.3.15"
+    },
+    "devDependencies": {
+        "prettier": "^2.5.1"
+    }
 }
