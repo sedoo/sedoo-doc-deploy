@@ -17,11 +17,15 @@ Dans la partie *scripts* du fichier *package.json*, il faut ajouter la ligne sui
 ```
 "scripts": {
         ...
-        "docs:deploy": "node ./node_modules/@sedoo/sedoo-doc-deploy/index.js -p unidoo"
+        "docs:deploy": "node ./node_modules/@sedoo/sedoo-doc-deploy/index.js -p nomduprojet"
         ...
-    },
+},
 ```
 
 ## Exécution
 
 L'execution s'effectue via la commande ```npm run docs:deploy```
+
+## URL de la documentation
+
+La documentation est alors disponible à l'url suivante: https://services.aeris-data.fr/cdn/documentation/v1_0/nomduprojet_en_minuscule
